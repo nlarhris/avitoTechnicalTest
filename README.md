@@ -1,2 +1,8 @@
-# avitoTechnicalTest
-Feed of vimeo videos
+Technical Test from Avito
+--------------------------
+Vimeo feed contains list of videos with descriptions
+
+
+
+
+copyright : nlarhis
