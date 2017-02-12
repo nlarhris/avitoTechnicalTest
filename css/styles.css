@@ -1,0 +1,33 @@
+#header{
+	margin-bottom: 20px;
+}
+
+#body{
+	margin-top: 20px;
+}
+
+.link{
+	margin-top: 0;
+	color: black;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.link:hover{
+	color:#EF8127;
+}
+
+.video-desc{
+	font-size: 12px;
+	margin-top: 6px;
+}
+
+.icon-of{
+	margin-top: 10px;
+}
+
+.number-of{
+	margin-top: 8px;
+    margin-left: -12px;
+    font-weight: bold;
+}

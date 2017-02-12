@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title>Avito Test - Feed Vimeo</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
+	<!--Adding Style-->
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="row" id="header">
+		<div class="col-md-offset-3 col-md-6">
+			<img src="images/logo.png" alt="logo"/>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-offset-3 col-md-6">
+			<form class="form-inline">
+			  <div class="form-group">
+			    <input type="email" class="form-control" id="inputDesc" placeholder="Description">
+			  </div>
+			  <div class="form-group">
+			    <select class="form-control" id="nbRes">
+			    	<option code="sel">Select number of results</option>
+			    	<option code="10">10</option>
+			    	<option code="25">25</option>
+			    	<option code="50">50</option>
+			    </select>
+			  </div>
+			  <div class="checkbox">
+			    <label>
+			      <input type="checkbox" id="checkLikes"> More than 10 likes
+			    </label>
+			  </div>
+  			  <button type="button" class="btn btn-default" onclick="filterBy();">Filter</button>
+			</form>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-offset-3 col-md-6" id="body">
+		</div>
+	</div>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<!-- Functions to fill Data -->
+	<script src="js/functions.js"></script>
+</body>
+</html>
